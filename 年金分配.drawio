@@ -1,11 +1,11 @@
-<mxfile host="app.diagrams.net" modified="2023-11-14T14:03:50.039Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36 Edg/119.0.0.0" etag="yvq80vzKVvWIDPxwxyrQ" version="22.1.0" type="github">
+<mxfile host="app.diagrams.net" modified="2023-11-15T13:32:27.388Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36 Edg/119.0.0.0" etag="6nlh7z8VBEfHIGs-TbX7" version="22.1.0" type="github">
   <diagram name="第 1 页" id="dCYtBuNzk-9CIT-Hvorw">
-    <mxGraphModel dx="1008" dy="1858" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1835" dy="1858" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="_85iQQ4SlLkRLPU1Ouhg-1" value="AnnuityExecuteFactory" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="170" y="80" width="230" height="268" as="geometry" />
+          <mxGeometry x="60" y="-210" width="230" height="268" as="geometry" />
         </mxCell>
         <mxCell id="_85iQQ4SlLkRLPU1Ouhg-2" value="+ param:AnnuityCalcPara" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="_85iQQ4SlLkRLPU1Ouhg-1">
           <mxGeometry y="26" width="230" height="26" as="geometry" />
@@ -38,7 +38,7 @@
           <mxGeometry y="242" width="230" height="26" as="geometry" />
         </mxCell>
         <mxCell id="_85iQQ4SlLkRLPU1Ouhg-5" value="PsnJobExecute" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="380" y="-170" width="190" height="216" as="geometry" />
+          <mxGeometry x="260" y="-512" width="190" height="268" as="geometry" />
         </mxCell>
         <mxCell id="_85iQQ4SlLkRLPU1Ouhg-6" value="+ psnjobList:List&amp;lt;PsnJobVO&amp;gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="_85iQQ4SlLkRLPU1Ouhg-5">
           <mxGeometry y="26" width="190" height="26" as="geometry" />
@@ -64,8 +64,14 @@
         <mxCell id="_85iQQ4SlLkRLPU1Ouhg-40" value="+ getAssignMonth(): int" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="_85iQQ4SlLkRLPU1Ouhg-5">
           <mxGeometry y="190" width="190" height="26" as="geometry" />
         </mxCell>
+        <mxCell id="_85iQQ4SlLkRLPU1Ouhg-142" value="+ getStandbyDays(): int" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="_85iQQ4SlLkRLPU1Ouhg-5">
+          <mxGeometry y="216" width="190" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="_85iQQ4SlLkRLPU1Ouhg-153" value="+ getEarlyRetiredMonths(): int" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="_85iQQ4SlLkRLPU1Ouhg-5">
+          <mxGeometry y="242" width="190" height="26" as="geometry" />
+        </mxCell>
         <mxCell id="_85iQQ4SlLkRLPU1Ouhg-15" value="PsndocExecute" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="600" y="-280" width="160" height="242" as="geometry" />
+          <mxGeometry x="490" y="-570" width="160" height="242" as="geometry" />
         </mxCell>
         <mxCell id="_85iQQ4SlLkRLPU1Ouhg-16" value="+ psndoc:PsndocVO" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="_85iQQ4SlLkRLPU1Ouhg-15">
           <mxGeometry y="26" width="160" height="26" as="geometry" />
@@ -95,7 +101,7 @@
           <mxGeometry y="216" width="160" height="26" as="geometry" />
         </mxCell>
         <mxCell id="_85iQQ4SlLkRLPU1Ouhg-26" value="WorkExecute" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="910" y="90" width="250" height="112" as="geometry" />
+          <mxGeometry x="810" y="-200" width="250" height="112" as="geometry" />
         </mxCell>
         <mxCell id="_85iQQ4SlLkRLPU1Ouhg-27" value="+ workList:List&amp;lt;WorkVO&amp;gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="_85iQQ4SlLkRLPU1Ouhg-26">
           <mxGeometry y="26" width="250" height="26" as="geometry" />
@@ -110,7 +116,7 @@
           <mxGeometry y="86" width="250" height="26" as="geometry" />
         </mxCell>
         <mxCell id="_85iQQ4SlLkRLPU1Ouhg-31" value="PsnorgExecute" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="720" y="-10" width="160" height="112" as="geometry" />
+          <mxGeometry x="610" y="-300" width="160" height="112" as="geometry" />
         </mxCell>
         <mxCell id="_85iQQ4SlLkRLPU1Ouhg-32" value="+ psnorg:PsnorgVO" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="_85iQQ4SlLkRLPU1Ouhg-31">
           <mxGeometry y="26" width="160" height="26" as="geometry" />
@@ -125,7 +131,7 @@
           <mxGeometry y="86" width="160" height="26" as="geometry" />
         </mxCell>
         <mxCell id="_85iQQ4SlLkRLPU1Ouhg-36" value="WadocExecute" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="990" y="250" width="160" height="86" as="geometry" />
+          <mxGeometry x="880" y="-40" width="160" height="86" as="geometry" />
         </mxCell>
         <mxCell id="_85iQQ4SlLkRLPU1Ouhg-37" value="+ wodocList: List&amp;lt;Wadoc&amp;gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="_85iQQ4SlLkRLPU1Ouhg-36">
           <mxGeometry y="26" width="160" height="26" as="geometry" />
@@ -137,7 +143,7 @@
           <mxGeometry y="60" width="160" height="26" as="geometry" />
         </mxCell>
         <mxCell id="_85iQQ4SlLkRLPU1Ouhg-41" value="PunExecute" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="920" y="374" width="160" height="86" as="geometry" />
+          <mxGeometry x="810" y="84" width="160" height="86" as="geometry" />
         </mxCell>
         <mxCell id="_85iQQ4SlLkRLPU1Ouhg-42" value="+ punList: List&amp;lt;PunVO&amp;gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="_85iQQ4SlLkRLPU1Ouhg-41">
           <mxGeometry y="26" width="160" height="26" as="geometry" />
@@ -149,7 +155,7 @@
           <mxGeometry y="60" width="160" height="26" as="geometry" />
         </mxCell>
         <mxCell id="_85iQQ4SlLkRLPU1Ouhg-45" value="AttendExecute" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="540" y="434" width="160" height="138" as="geometry" />
+          <mxGeometry x="430" y="144" width="160" height="138" as="geometry" />
         </mxCell>
         <mxCell id="_85iQQ4SlLkRLPU1Ouhg-46" value="+ attendData: Object" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="_85iQQ4SlLkRLPU1Ouhg-45">
           <mxGeometry y="26" width="160" height="26" as="geometry" />
@@ -167,7 +173,7 @@
           <mxGeometry y="112" width="160" height="26" as="geometry" />
         </mxCell>
         <mxCell id="_85iQQ4SlLkRLPU1Ouhg-51" value="SalaryExecute" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="350" y="410" width="160" height="86" as="geometry" />
+          <mxGeometry x="240" y="120" width="160" height="86" as="geometry" />
         </mxCell>
         <mxCell id="_85iQQ4SlLkRLPU1Ouhg-52" value="+ data: Object" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="_85iQQ4SlLkRLPU1Ouhg-51">
           <mxGeometry y="26" width="160" height="26" as="geometry" />
@@ -200,6 +206,189 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="_85iQQ4SlLkRLPU1Ouhg-73" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="_85iQQ4SlLkRLPU1Ouhg-61" target="_85iQQ4SlLkRLPU1Ouhg-51">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_85iQQ4SlLkRLPU1Ouhg-76" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="_85iQQ4SlLkRLPU1Ouhg-74" target="_85iQQ4SlLkRLPU1Ouhg-75">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_85iQQ4SlLkRLPU1Ouhg-74" value="开始" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="60" y="450" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_85iQQ4SlLkRLPU1Ouhg-78" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="_85iQQ4SlLkRLPU1Ouhg-75" target="_85iQQ4SlLkRLPU1Ouhg-77">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_85iQQ4SlLkRLPU1Ouhg-75" value="查询需要分配年金的人员，并排除已经初始化的人员" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="560" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_85iQQ4SlLkRLPU1Ouhg-100" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="_85iQQ4SlLkRLPU1Ouhg-77" target="_85iQQ4SlLkRLPU1Ouhg-99">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_85iQQ4SlLkRLPU1Ouhg-77" value="根据人员主键，查询基本信息，任职记录，定调资信息，考勤信息，组织关系，薪酬数据，履历记录，惩罚信息，以及各系数配置" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="30" y="670" width="160" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="_85iQQ4SlLkRLPU1Ouhg-79" value="履历记录最早的开始日期" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1110" y="-171" width="180" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="_85iQQ4SlLkRLPU1Ouhg-80" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="_85iQQ4SlLkRLPU1Ouhg-29" target="_85iQQ4SlLkRLPU1Ouhg-79">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_85iQQ4SlLkRLPU1Ouhg-81" value="发放年末-工作开始日期" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1110" y="-102" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_85iQQ4SlLkRLPU1Ouhg-82" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="_85iQQ4SlLkRLPU1Ouhg-30" target="_85iQQ4SlLkRLPU1Ouhg-81">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_85iQQ4SlLkRLPU1Ouhg-83" value="考虑离职再入职情况，查询本次发放的组织关系的开始日期，不一定是最新的组织关系，按照年金发放期间找" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="830" y="-320" width="230" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="_85iQQ4SlLkRLPU1Ouhg-84" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="_85iQQ4SlLkRLPU1Ouhg-34" target="_85iQQ4SlLkRLPU1Ouhg-83">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_85iQQ4SlLkRLPU1Ouhg-85" value="发放年末-入行时间" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="840" y="-259" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_85iQQ4SlLkRLPU1Ouhg-86" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="_85iQQ4SlLkRLPU1Ouhg-35" target="_85iQQ4SlLkRLPU1Ouhg-85">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_85iQQ4SlLkRLPU1Ouhg-87" value="取符合发放期间里的最新的任职记录的信息（需要考虑离职再入职）" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="90" y="-430" width="110" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_85iQQ4SlLkRLPU1Ouhg-88" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="_85iQQ4SlLkRLPU1Ouhg-12" target="_85iQQ4SlLkRLPU1Ouhg-87">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_85iQQ4SlLkRLPU1Ouhg-89" value="按规则获取" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1160" y="-16" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_85iQQ4SlLkRLPU1Ouhg-91" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="_85iQQ4SlLkRLPU1Ouhg-39" target="_85iQQ4SlLkRLPU1Ouhg-89">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_85iQQ4SlLkRLPU1Ouhg-92" value="从人员的奖惩信息里，按逻辑得出扣减比例" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1060" y="125" width="100" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="_85iQQ4SlLkRLPU1Ouhg-93" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="_85iQQ4SlLkRLPU1Ouhg-44" target="_85iQQ4SlLkRLPU1Ouhg-92">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_85iQQ4SlLkRLPU1Ouhg-94" value="&lt;font color=&quot;#330000&quot;&gt;获取薪资的代发年金项目汇总&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry y="174" width="120" height="16" as="geometry" />
+        </mxCell>
+        <mxCell id="_85iQQ4SlLkRLPU1Ouhg-96" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="_85iQQ4SlLkRLPU1Ouhg-54" target="_85iQQ4SlLkRLPU1Ouhg-94">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_85iQQ4SlLkRLPU1Ouhg-97" value="&lt;font color=&quot;#330000&quot;&gt;取考勤月报，暂不考虑当月离职再入职的考勤数据，用手工调整去算&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="657" y="180" width="113" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="_85iQQ4SlLkRLPU1Ouhg-98" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="_85iQQ4SlLkRLPU1Ouhg-49" target="_85iQQ4SlLkRLPU1Ouhg-97">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_85iQQ4SlLkRLPU1Ouhg-102" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="_85iQQ4SlLkRLPU1Ouhg-99" target="_85iQQ4SlLkRLPU1Ouhg-101">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_85iQQ4SlLkRLPU1Ouhg-99" value="为每个人创建一个年金分配执行器" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="270" y="550" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_85iQQ4SlLkRLPU1Ouhg-104" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="_85iQQ4SlLkRLPU1Ouhg-101" target="_85iQQ4SlLkRLPU1Ouhg-103">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_85iQQ4SlLkRLPU1Ouhg-101" value="按人循环，创建年金分配实体，并设置初始化值" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="270" y="660" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_85iQQ4SlLkRLPU1Ouhg-103" value="保存到数据库" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="270" y="770" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_85iQQ4SlLkRLPU1Ouhg-105" value="结束" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="280" y="870" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_85iQQ4SlLkRLPU1Ouhg-106" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="_85iQQ4SlLkRLPU1Ouhg-103" target="_85iQQ4SlLkRLPU1Ouhg-105">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_85iQQ4SlLkRLPU1Ouhg-107" value="SexCoefExcute" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-260" y="-386" width="160" height="86" as="geometry" />
+        </mxCell>
+        <mxCell id="_85iQQ4SlLkRLPU1Ouhg-111" value="+ sexCoefConfig: Object" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="_85iQQ4SlLkRLPU1Ouhg-107">
+          <mxGeometry y="26" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="_85iQQ4SlLkRLPU1Ouhg-109" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="_85iQQ4SlLkRLPU1Ouhg-107">
+          <mxGeometry y="52" width="160" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="_85iQQ4SlLkRLPU1Ouhg-110" value="+ getCoef(sex): UFDouble" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="_85iQQ4SlLkRLPU1Ouhg-107">
+          <mxGeometry y="60" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="_85iQQ4SlLkRLPU1Ouhg-113" value="由性别，和性别系数决定" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-340" y="-450" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_85iQQ4SlLkRLPU1Ouhg-114" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="_85iQQ4SlLkRLPU1Ouhg-110" target="_85iQQ4SlLkRLPU1Ouhg-113">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_85iQQ4SlLkRLPU1Ouhg-115" value="AgeCoefExecute" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-260" y="-196" width="160" height="86" as="geometry" />
+        </mxCell>
+        <mxCell id="_85iQQ4SlLkRLPU1Ouhg-119" value="+ ageCoefConfig: Object" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="_85iQQ4SlLkRLPU1Ouhg-115">
+          <mxGeometry y="26" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="_85iQQ4SlLkRLPU1Ouhg-117" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="_85iQQ4SlLkRLPU1Ouhg-115">
+          <mxGeometry y="52" width="160" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="_85iQQ4SlLkRLPU1Ouhg-118" value="+ getCoef(age): UFDouble" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="_85iQQ4SlLkRLPU1Ouhg-115">
+          <mxGeometry y="60" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="_85iQQ4SlLkRLPU1Ouhg-120" value="年龄规则决定" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-370" y="-155" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_85iQQ4SlLkRLPU1Ouhg-121" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="_85iQQ4SlLkRLPU1Ouhg-118" target="_85iQQ4SlLkRLPU1Ouhg-120">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_85iQQ4SlLkRLPU1Ouhg-122" value="WorkAgeCoefExecute" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-280" y="-36" width="200" height="86" as="geometry" />
+        </mxCell>
+        <mxCell id="_85iQQ4SlLkRLPU1Ouhg-124" value="+ workAgeCoefConfig: Object" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="_85iQQ4SlLkRLPU1Ouhg-122">
+          <mxGeometry y="26" width="200" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="_85iQQ4SlLkRLPU1Ouhg-125" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="_85iQQ4SlLkRLPU1Ouhg-122">
+          <mxGeometry y="52" width="200" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="_85iQQ4SlLkRLPU1Ouhg-126" value="+ getCoef(workAge): UFDouble" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="_85iQQ4SlLkRLPU1Ouhg-122">
+          <mxGeometry y="60" width="200" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="_85iQQ4SlLkRLPU1Ouhg-127" value="工龄规则决定" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-400" y="-10" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_85iQQ4SlLkRLPU1Ouhg-128" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="_85iQQ4SlLkRLPU1Ouhg-126" target="_85iQQ4SlLkRLPU1Ouhg-127">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_85iQQ4SlLkRLPU1Ouhg-129" value="CompanyAgeCoefExecute" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-300" y="120" width="220" height="86" as="geometry" />
+        </mxCell>
+        <mxCell id="_85iQQ4SlLkRLPU1Ouhg-130" value="+ companyAgeCoefConfig: Object" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="_85iQQ4SlLkRLPU1Ouhg-129">
+          <mxGeometry y="26" width="220" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="_85iQQ4SlLkRLPU1Ouhg-131" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="_85iQQ4SlLkRLPU1Ouhg-129">
+          <mxGeometry y="52" width="220" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="_85iQQ4SlLkRLPU1Ouhg-132" value="+ getCoef(companyAge): UFDouble" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="_85iQQ4SlLkRLPU1Ouhg-129">
+          <mxGeometry y="60" width="220" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="_85iQQ4SlLkRLPU1Ouhg-133" value="行龄决定" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-420" y="130" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_85iQQ4SlLkRLPU1Ouhg-134" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="_85iQQ4SlLkRLPU1Ouhg-132" target="_85iQQ4SlLkRLPU1Ouhg-133">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_85iQQ4SlLkRLPU1Ouhg-136" value="SalaryLevelCoefExecute" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-410" y="270" width="320" height="86" as="geometry" />
+        </mxCell>
+        <mxCell id="_85iQQ4SlLkRLPU1Ouhg-137" value="+ prmlvCoefConfig: Object" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="_85iQQ4SlLkRLPU1Ouhg-136">
+          <mxGeometry y="26" width="320" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="_85iQQ4SlLkRLPU1Ouhg-138" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="_85iQQ4SlLkRLPU1Ouhg-136">
+          <mxGeometry y="52" width="320" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="_85iQQ4SlLkRLPU1Ouhg-139" value="+ getCoef(List&amp;lt;PsnJob&amp;gt;,List&amp;lt;Wadoc&amp;gt;): UFDouble" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="_85iQQ4SlLkRLPU1Ouhg-136">
+          <mxGeometry y="60" width="320" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="_85iQQ4SlLkRLPU1Ouhg-140" value="人员类别，岗位，调薪数据共同决定" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-590" y="298" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_85iQQ4SlLkRLPU1Ouhg-141" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="_85iQQ4SlLkRLPU1Ouhg-139" target="_85iQQ4SlLkRLPU1Ouhg-140">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
